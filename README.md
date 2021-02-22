@@ -2,7 +2,7 @@
 
 Pagacoin is an admin web app designed to help admin users to create transactions between the wallets of the different users.
 
-## Comenzando 🚀
+## Introduction 🚀
 
 The easiest way to access to the project is by deploying it with Docker, but also you can deploy on local environment.
 
@@ -20,7 +20,7 @@ Docker
 
 You can set up the application on your local environment:
 
-1) Go to pagacoin-front folder and execute:
+1. Go to pagacoin-front folder and execute:
 
 ```
 npm install
@@ -30,7 +30,7 @@ npm install
 npm start
 ```
 
-2) Go to pagacoin-api folder and execute:
+2. Go to pagacoin-api folder and execute:
 
 Windows
 
@@ -49,7 +49,7 @@ Mac, Linux
 Swagger
 
 ```
-http://localhost:8080/swagger-ui.html
+[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 ```
 
 ## Deployment 📦
@@ -68,17 +68,17 @@ docker-compose up
 
 ## Technology 🛠️
 
-Back
-
 * Spring
-
-Front
+* Java
+* Swagger
 
 * React
 * TypeScript
 * Redux
 * Hooks
 * Axios
+
+* Docker
 
 ## Developer ✒️
 
