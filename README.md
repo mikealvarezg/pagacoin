@@ -10,9 +10,9 @@ See **Deployment** section.
 
 ### Pre-requisites 📋
 
-Node v14.15.5
+Node *v14.15.5*
 
-Java 15.0.2-jdk
+Java *15.0.2-jdk*
 
 Docker
 
@@ -20,7 +20,7 @@ Docker
 
 You can set up the application on your local environment:
 
-1. Go to pagacoin-front folder and execute:
+1. Go to **pagacoin-front** folder and execute:
 
 ```
 npm install
@@ -30,7 +30,7 @@ npm install
 npm start
 ```
 
-2. Go to pagacoin-api folder and execute:
+2. Go to **pagacoin-api** folder and execute:
 
 Windows
 
@@ -60,7 +60,7 @@ Set Git auto CRLF to false
 git config core.autocrlf false
 ```
 
-Execute this commmand from the main project folder (pagacoin)
+Execute this commmand from the main project folder **pagacoin**
 
 ```
 docker-compose up
