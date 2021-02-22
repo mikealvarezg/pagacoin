@@ -21,10 +21,27 @@ instance.interceptors.response.use(
         return response;
     },
     (error) => {
-        if (error.response.data) {
+        if (error.response) {
+            if (error.response.data) {
+                Swal.fire({
+                    title: error.response.data.error,
+                    text: error.response.data.message,
+                    icon: 'error',
+                })
+            } else {
+                Swal.fire({
+                    title: error.response.status,
+                    icon: 'error',
+                })
+            }
+        } else if (error.request) {
             Swal.fire({
-                title: error.response.data.error,
-                text: error.response.data.message,
+                text: 'The request was made but no response was received',
+                icon: 'error',
+            })
+        } else {
+            Swal.fire({
+                text: 'Something happened in setting up the request',
                 icon: 'error',
             })
         }
