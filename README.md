@@ -48,6 +48,12 @@ npm install
 npm start
 ```
 
+The app will be deployed on the route:
+
+```
+http://localhost:3000/
+```
+
 2. Go to **pagacoin-api** folder and execute:
 
 Windows
@@ -61,6 +67,15 @@ Mac, Linux
 ```
 ./mvnw spring-boot:run
 ```
+
+Once the server is running you can access to the endpoints like:
+
+```
+http://localhost:8080/users
+```
+
+Visit the Swagger page to see more information about endpoints.
+
 
 ## Documentation
 
