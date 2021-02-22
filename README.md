@@ -4,56 +4,47 @@ Pagacoin is an admin web app designed to help admin users to create transactions
 
 ## Comenzando 🚀
 
-The easiest way to access to th web is by deploying with Docker, but also you can deploy local environment 
+The easiest way to access to the project is by deploying it with Docker, but also you can deploy on local environment.
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+See **Deployment** section.
 
+### Pre-requisites 📋
 
-### Pre-requisitos 📋
+Node v14.15.5
 
-Node and npm
-
-Spring
-
-Maven
-
-Java
+Java 15.0.2-jdk
 
 Docker
 
-Desactivar auto saltos de linea
+### Setup 🔧
 
-```
-Da un ejemplo
-```
+You can set up the application on your local environment:
 
-### Instalación 🔧
+1) Go to pagacoin-front folder and execute:
 
-following these steps:
-
-1) Front
 ```
 npm install
 ```
-
 
 ```
 npm start
 ```
 
-2) Back
+2) Go to pagacoin-api folder and execute:
 
 Windows
+
 ```
 mvnw spring-boot:run
 ```
 
 Mac, Linux
+
 ```
 ./mvnw spring-boot:run
 ```
 
-## Documentación
+## Documentation
 
 Swagger
 
@@ -61,27 +52,34 @@ Swagger
 http://localhost:8080/swagger-ui.html
 ```
 
-## Despliegue 📦
+## Deployment 📦
 
-Ejecutar el siguiente comando desde la carpeta raíz del proyecto
+Set Git auto CRLF to false 
+
+```
+git config core.autocrlf false
+```
+
+Execute this commmand from the main project folder (pagacoin)
 
 ```
 docker-compose up
 ```
-## Construido con 🛠️
+
+## Technology 🛠️
 
 Back
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+
+* Spring
 
 Front
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
-## Autor ✒️
+* React
+* TypeScript
+* Redux
+* Hooks
+* Axios
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+## Developer ✒️
 
 * **Miguel Álvarez Granado** - [mikealvarezg](https://github.com/mikealvarezg)
